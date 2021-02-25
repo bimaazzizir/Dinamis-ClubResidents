@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>club residents - Hotel</title>
+	<link rel="stylesheet" type="text/css" href="gaya.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="gaya.css">
+
+<style type="text/css">
+.view{text-decoration:none; color:black;}
+.view:hover{border-bottom:1px solid;}
+</style>
+
+</head>
+<body>
+	<div class="logo">
+<ul>
+	<li><center><img src="icon/club.png" width="150px"></center><hr></li>
+</ul>
+</div>
+<div class="atas" id="atas">
+<ul>
+	<li><a href="index.html" class="active" href="javascript:void(0)" >Home</a><hr></li>
+	<li><a href="hub.html">Hubungi Kami</a><hr></li>
+	<li><a href="fasili.html">Fasilitas</a><hr></li>
+	<li><a href="admin/pesan_kamar/reservasi_pelanggan.php">Pesan Kamar</a><hr></li>
+	<li><a href="admin/saran/saran.php">Saran</a><hr></li>
+</ul>
+
+</div>
+
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="fasilitas/rooftop.jpg" style="width: 100%" height="500">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade"> 
+  <img src="fasilitas/lobbybar.png" style="width: 100%" height="500">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <img src="fasilitas/executive/1.jpg" style="width: 100%" height="500">
+  <div class="text"></div>
+</div>
+<div class="mySlides fade">
+  <img src="fasilitas/gunungmerapi.jpg" style="width: 100%" height="500">
+  <div class="text"></b></div>
+</div>
+<div class="mySlides fade">
+  <img src="Slide/ballroom.jpg" style="width: 100%" height="500">
+  <div class="text"></b></div>
+</div>
+
+</div>
+
+<div style="text-align:center"> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 10000); // Change image every 3 seconds
+}
+</script>
+<hr>
+<h2 align="center">DISCOVER YOUR IDEAL SPACE IN ONE OF THE CITY’S MOST FASHIONABLE DISTRICTS<br></h2>
+<p align="center">Perfectly located in the popular and stylish district of Slemanand with easy access to the airport, the Innside Yogyakarta invites you to relax on its spectacular rooftopterrace with swimming pool and views of the Merapi volcano.</p>
+<br><br><br>
+<h2 align="center">FACILITIES</h2>
+<br><br><br>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="Slide/kolam.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2 align="center">Swimming Pool</h2>
+        <p align="center"><a class="view" href="index.html">View</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="Slide/resto.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2 align="center">Restaurant</h2>
+        <p align="center"><a class="view" href="restaurant.html">View</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="Slide/Meet.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2 align="center">Meeting Rooms</h2>
+        <p align="center"><a class="view" href="meetroom.html">View</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<br><br>
+<h2 align="center">TRAVEL THE CITY</h2>
+
+<br><br>
+	<div class="kilas0">
+	<div class="kilas1">
+ 	<div class="kilas">
+        <img src="fasilitas/kraton.jpg" style="width:100%">
+        <p align="center"><b>Kraton Jogjakarta</b><br><br><br>
+        <a class="view" href="http://www.kratonjogja.id/">View</a>
+  		</div>
+  <div class="kilas">
+        <img src="fasilitas/malioboro.jpg" alt="Forest" style="width:100%">
+        <p align="center"><b>Malioboro</b><br><br><br>
+        <a class="view" href="https://id.wikipedia.org/wiki/Jalan_Malioboro">View</a>
+  </div>
+  <div class="kilas">
+        <img src="fasilitas/candi.jpg" alt="Mountains" style="width:100%">
+        <p align="center"><b>Candi Prambanan</b><br><br><br>
+        <a class="view" href="https://id.wikipedia.org/wiki/Candi_Prambanan">View</a>
+  </div>
+  </div>
+</div>
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>,<br><br><br><br>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var atas = document.getElementById("atas");
+var sticky = atas.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    atas.classList.add("sticky")
+  } else {
+    atas.classList.remove("sticky");
+  }
+}
+</script>
+<h2 align="center">BOOKING ROOM NOW</h2>
+<br>
+<div class="kotak1">
+  <div class="kotak">
+    <div class="card" align="center"> 
+      <img src="kamar/starlight/1.jpg" width="420" height="240">
+      <div class="isi">
+        <h2>STARLIGHT CLASS</h2>
+        <p class="title">Kamar yang di desain khusus untuk kebahagiaan.</p>
+            <div align="left">
+              <ul class="row">
+                                
+                  <li>TV Layar datar</li>
+                                
+                  <li>Pengering rambut</li>
+                                
+                  <li>Tempat Karaoke</li>
+                                
+                  <li>Barang Toilet Gratis</li>
+                                
+                  <li>Handuk</li>
+              </ul>
+            </div>
+        <p><a href="kamarstarlight.html">View</a></p>
+      </div>
+    </div>
+  </div></div>
+<div class="kotak1">
+  <div class="kotak">
+    <div class="card" align="center">
+      <img src="kamar/family/1.jpg" width="420" height="240">
+      <div class="isi">
+        <h2>FAMILY CLASS</h2>
+       <p class="title">Kamar dengan desain khusus untuk keluarga.</p>
+            <div align="left">
+              <ul class="row">
+                                
+                  <li>TV Layar datar</li>
+                                
+                  <li>Pengering rambut</li>
+                                
+                  <li>Kulkas</li>
+                                
+                  <li>Barang Toilet Gratis</li>
+                                
+                  <li>Handuk</li>
+              </ul>
+            </div>
+        <p><a href="kamarfamily.html">View</a></p>
+      </div>
+    </div>
+  </div></div><div class="kotak1">
+  <div class="kotak">
+    <div class="card" align="center">
+      <img src="kamar/executive/1.jpg" width="420" height="240">
+      <div class="isi">
+        <h2>EXECUTIVE CLASS</h2>
+        <p class="title">Kamar dengan desain khusus untuk kemewahan.</p>
+             <div align="left">
+              <ul class="row">
+                                
+                  <li>TV Layar datar</li>
+                                
+                  <li>Pengering rambut</li>
+                                
+                  <li>Bar mini</li>
+                                
+                  <li>Barang Toilet Gratis</li>
+                                
+                  <li>Handuk</li>
+              </ul>
+            </div>
+        <p><a href="kamarexecutive.html">View</a></p>
+      </div>
+    </div>
+  </div></div>
+
+<div class="bawahb">
+	<br><br><br>
+	<ul>
+	<li style="float: left;">&copy;club residents</li>
+	<li><a href="admin/admin_login.php">Login</a></li>
+	</ul>
+</div>
+</body>
+</html>
+

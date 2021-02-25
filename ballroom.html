@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ballroom | club residents - Hotel</title>
+  <link rel="stylesheet" type="text/css" href="cssfasili.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="cssfasili.css">
+
+<style type="text/css">
+  .pesan{text-decoration: none; color: white;background: #333; padding: 10px 30px}
+  .pesan:hover{background: #EFB133}
+</style>
+
+</head>
+<body>
+  <div class="logo">
+<ul>
+<li><center><img src="icon/club.png" width="150px"></center><hr></li>
+</ul>
+</div>
+<div class="atas" id="atas">
+<ul>
+  <li><a href="index.html" class="active" href="javascript:void(0)" >Home</a><hr></li>
+  <li><a href="hub.html">Hubungi Kami</a><hr></li>
+  <li><a href="fasili.html" style="background: #111">Fasilitas</a><hr></li>
+ <li><a href="admin/pesan_kamar/reservasi_pelanggan.php">Pesan Kamar</a><hr></li>
+  <li><a href="admin/saran/saran.php">Saran</a><hr></li>
+</ul>
+
+</div>
+
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="fasilitas/rooftop.jpg" style="width: 100%" height="500">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade"> 
+  <img src="fasilitas/lobbybar.png" style="width: 100%" height="500">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <img src="fasilitas/executive/1.jpg" style="width: 100%" height="500">
+  <div class="text"></div>
+</div>
+<div class="mySlides fade">
+  <img src="fasilitas/gunungmerapi.jpg" style="width: 100%" height="500">
+  <div class="text"></b></div>
+</div>
+<div class="mySlides fade">
+  <img src="slide/ballroom.jpg" style="width: 100%" height="500">
+  <div class="text"></b></div>
+</div>
+
+</div>
+
+<div style="text-align:center"> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 10000); // Change image every 3 seconds
+}
+</script>
+<hr>
+<h2 align="center">TEMUKAN RUANG ANDA DI WILAYAH YANG TRENDI<br></h2>
+<p align="center">Terletak dengan sempurna di distrik ternama Sleman dan akses mudah kebandara, Club Residents mengundang Anda untuk bersantai di kolam renangatap spektakuler menghadap Gunung Merapi.</p>
+<br><br>
+<!--
+<div class="kilas1">
+  <div class="kilas">
+    <img src="icon/wifi.jpg" alt="wifi" style="width:100%">
+    <p align="center">Free Access Wifi</p>
+  </div>
+  <div class="kilas">
+    <img src="icon/wifi.jpg" alt="Forest" style="width:100%">
+     <p align="center">Free Access Wifi</p>
+  </div>
+  <div class="kilas">
+    <img src="icon/wifi.jpg" alt="Mountains" style="width:100%">
+    <p align="center">Free Access Wifi</p>
+  </div>
+   <div class="kilas">
+    <img src="icon/wifi.jpg" alt="Mountains" style="width:100%">
+    <p align="center">Free Access Wifi</p>
+  </div>
+</div>
+-->
+
+<br><br><hr>
+<h2 align="center">GRAND BALLROOM</h2>
+<br><br>
+  <div class="content" align="center">
+    <img src="Slide/ballroom.jpg">
+  </div>
+  <br>
+  <div class="container">
+                <div>
+                    <div>
+                        <h3><p>Pertemuan dan Acara</p>
+</h3>
+                        <ul>
+  <li>Tim layanan profesional dan berdedikasi</li>
+  <li>Makan malam bertema</li>
+  <li>Coffee break dengan inovasi, pesta koktail</li>
+  <li>Jenis Ruang pertemuan ringan</li>
+  <li>Ruang pertemuan multi-fungsi</li>
+  <li>Peralatan audio visual</li>
+  <li>Internet dan Wi-Fi berkecepatan tinggi</li>
+  <li>Pusat layanan bisnis atas permintaan</li>
+  <li>Paket makanan dan minuman disesuaikan dengan banyak pilihan</li>
+</ul>
+
+                        
+                    </div>
+                </div>
+            </div>
+<div class="container" align="center">
+<a class="pesan" href="admin/pesan_ballroom/reservasi_ballroom.php">Pesan</a>
+</div>
+<br><hr>
+<h2 align="center">BOOKING KAMAR SEKARANG!</h2>
+<br><br>
+<div class="kotak1">
+  <div class="kotak">
+    <div class="card" align="center"> 
+      <img src="kamar/starlight/1.jpg" width="420" height="240">
+      <div class="isi">
+        <h2>STARLIGHT CLASS</h2>
+        <p class="title">Kamar didesain khusus merasakan kebahagiaan.</p>
+            <div align="left">
+              <ul class="row">
+                                
+                  <li>TV Layar datar</li>
+                                
+                  <li>Pengering rambut</li>
+                                
+                  <li>Tempat Karaoke</li>
+                                
+                  <li>Barang Toilet Gratis</li>
+                                
+                  <li>Handuk</li>
+              </ul>
+            </div>
+        <p><a href="kamarstarlight.html">View</a></p>
+      </div>
+    </div>
+  </div></div>
+<div class="kotak1">
+  <div class="kotak">
+    <div class="card" align="center">
+      <img src="kamar/family/1.jpg" width="420" height="240">
+      <div class="isi">
+        <h2>FAMILY CLASS</h2>
+       <p class="title">Kamar dengan desain khusus untuk keluarga.</p>
+            <div align="left">
+              <ul class="row">
+                                
+                  <li>TV Layar datar</li>
+                                
+                  <li>Pengering rambut</li>
+                                
+                  <li>Kulkas</li>
+                                
+                  <li>Barang Toilet Gratis</li>
+                                
+                  <li>Handuk</li>
+              </ul>
+            </div>
+        <p><a href="kamarfamily.html">View</a></p>
+      </div>
+    </div>
+  </div></div><div class="kotak1">
+  <div class="kotak">
+    <div class="card" align="center">
+      <img src="kamar/executive/1.jpg" width="420" height="240">
+      <div class="isi">
+        <h2>EXECUTIVE CLASS</h2>
+        <p class="title">Kamar dengan desain khusus untuk kemewahan.</p>
+             <div align="left">
+              <ul class="row">
+                                
+                  <li>TV Layar datar</li>
+                                
+                  <li>Pengering rambut</li>
+                                
+                  <li>Bar mini</li>
+                                
+                  <li>Barang Toilet Gratis</li>
+                                
+                  <li>Handuk</li>
+              </ul>
+            </div>
+        <p><a href="kamarexecutive.html">View</a></p>
+      </div>
+    </div>
+  </div></div>
+<div class="bawahb">
+  <br><br><br>
+  <ul>
+  <li style="float: left;">&copy;club residents</li>
+  <li><a href="admin/admin_login.php">Login</a></li>
+  </ul>
+</div>
+</body>
+</html>
+

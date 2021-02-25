@@ -1,0 +1,46 @@
+#wrapper{
+  background: grey;
+  position: relative;
+  margin: 0 auto;
+  width: 350px;
+  height: 265px;
+  border-radius: 5px 5px 5px 5px;
+  padding: 15px;
+  opacity: 0.93;
+  font-family: rockwell;
+}
+
+h2{
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.isi{
+	height: 30px;
+	width: 300px;
+	padding: 3px;
+	font-size: 20px;
+	font-family: rockwell;
+}
+
+.tambah{
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 6px;
+  font-family: rockwell;
+}
+
+.back{
+  width: 100px
+  height: 30px;
+  color: white;
+  text-decoration: none;
+  font-family: rockwell;
+}
+
+.back:hover{
+  border-bottom: 2px solid;
+}

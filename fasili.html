@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Facilities | club residents - Hotel</title>
+  <link rel="stylesheet" type="text/css" href="cssfasili.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="cssfasili.css">
+</head>
+<body>
+  <div class="logo">
+<ul>
+<li><center><img src="icon/club.png" width="150px"></center><hr></li>
+</ul>
+</div>
+<div class="atas" id="atas">
+<ul>
+  <li><a href="index.html" class="active" href="javascript:void(0)" >Home</a><hr></li>
+  <li><a href="hub.html">Hubungi Kami</a><hr></li>
+  <li><a href="fasili.html" style="background: #111">Fasilitas</a><hr></li>
+  <li><a href="admin/pesan_kamar/reservasi_pelanggan.php">Pesan Kamar</a><hr></li>
+  <li><a href="admin/saran/saran.php">Saran</a><hr></li>
+</ul>
+
+</div>
+
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="fasilitas/rooftop.jpg" style="width: 100%" height="500">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade"> 
+  <img src="fasilitas/lobbybar.png" style="width: 100%" height="500">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <img src="fasilitas/executive/1.jpg" style="width: 100%" height="500">
+  <div class="text"></div>
+</div>
+<div class="mySlides fade">
+  <img src="fasilitas/gunungmerapi.jpg" style="width: 100%" height="500">
+  <div class="text"></b></div>
+</div>
+<div class="mySlides fade">
+  <img src="slide/ballroom.jpg" style="width: 100%" height="500">
+  <div class="text"></b></div>
+</div>
+
+</div>
+
+<div style="text-align:center"> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 10000); // Change image every 3 seconds
+}
+</script>
+<hr>
+<h2 align="center">TEMUKAN RUANG ANDA DI WILAYAH YANG TRENDI<br></h2>
+<p align="center">Terletak dengan sempurna di distrik ternama Sleman dan akses mudah kebandara, Club Residents mengundang Anda untuk bersantai di kolam renangatap spektakuler menghadap Gunung Merapi.</p>
+<br><br>
+<!--
+<div class="kilas1">
+  <div class="kilas">
+    <img src="icon/wifi.jpg" alt="wifi" style="width:100%">
+    <p align="center">Free Access Wifi</p>
+  </div>
+  <div class="kilas">
+    <img src="icon/wifi.jpg" alt="Forest" style="width:100%">
+     <p align="center">Free Access Wifi</p>
+  </div>
+  <div class="kilas">
+    <img src="icon/wifi.jpg" alt="Mountains" style="width:100%">
+    <p align="center">Free Access Wifi</p>
+  </div>
+   <div class="kilas">
+    <img src="icon/wifi.jpg" alt="Mountains" style="width:100%">
+    <p align="center">Free Access Wifi</p>
+  </div>
+</div>
+-->
+<br><br>
+<div class="bawahc">
+  <ul>
+  <p align="center"><font face="Broadway" size="50">KAMAR</font></p>
+  </ul>
+</div>
+<br><br>
+
+<!--
+<div class="sekat">
+        
+      <table class="post" border="1" bgcolor="#DCDCDC">
+        <tr>
+          <td><img src="fasilitas/delux/1.jpg" width="420" height="240"></td>
+          <td class="post-body">
+          <h2>KAMAR DELUXE</h2>
+          <br><br><br>
+          Ruangan ramping dengan sentuhan modern dan gaya. Kamar chic ini dengan banyak fasilitas menjanjikan tinggal tepat nyaman di jantung kota Yogyakarta. Pilihan sempurna apakah bepergian untuk bisnis atau untuk kesenangan.
+          <br><br><br>
+          <a href="kamardelux.html">LIHAT KAMAR</a>
+        </tr>
+      </table>
+      </div>
+
+      <div class="sekat">
+        
+      <table class="post" border="1" bgcolor="#DCDCDC">
+        <tr>
+          <td><img src="fasilitas/family/1.jpg" width="420" height="240"></td>
+          <td class="post-body">
+          <h2>KAMAR FAMILY</h2>
+          <br><br><br>
+          Bersantai dan merasa nyaman di kamar premium kami seluas 35 m2. Dilengkapi dengan balkon pribadi yang luas sendiri, kamar ramping ini dengan berbagai sarana dan fasilitas menjanjikan tinggal tepat nyaman di jantung kota Yogyakarta. Pilihan sempurna apakah bepergian untuk bisnis atau kesenangan.
+          <br><br>
+          <a href="kamarfamily.html">LIHAT KAMAR</a>
+        </tr>
+      </table>
+      </div>
+
+      <div class="sekat">
+        
+      <table class="post" border="1" bgcolor="#DCDCDC">
+        <tr>
+          <td><img src="fasilitas/premium/1.jpeg" width="420" height="240"></td>
+          <td class="post-body">
+          <h2>KAMAR PREMIUM</h2>
+          <br><br><br>
+          Kamar modern, kontemporer dan luas berukuran 46 m2. The INNSIDE LOFT kamar memiliki desain yang cerdas dan bergaya di lingkungan yang nyaman. Bepergian untuk bisnis atau kesenangan, kamar ini menawarkan ruang yang sempurna untuk menikmati masa tinggal yang nyaman di Yogyakarta.
+          <br><br>
+          <a href="kamarpremium.html">LIHAT KAMAR</a>
+        </tr>
+      </table>
+      </div>
+
+      <div class="sekat">
+        
+      <table class="post" border="1" bgcolor="#DCDCDC">
+        <tr>
+          <td><img src="fasilitas/starlight/1.jpg" width="420" height="240"></td>
+          <td class="post-body">
+          <h2>KAMAR STARLIGHT</h2>
+          <br><br><br>
+          Kamar-kamar yang luas dan modern berukuran 48 m2. Kamar INNSIDE LIFESTYLE memiliki desain cerdas dan bergaya dalam lingkungan lapang. Bepergian untuk bisnis atau untuk kesenangan, kamar ini menawarkan ruang yang sempurna untuk memiliki tinggal yang nyaman di Yogyakarta.
+          <br><br>
+          <a href="kamarstarlight.html">LIHAT KAMAR</a>
+        </tr>
+      </table>
+      </div>
+
+      <div class="sekat">
+        
+      <table class="post" border="1" bgcolor="#DCDCDC">
+        <tr>
+          <td><img src="fasilitas/executive/1.jpg" width="420" height="240"></td>
+          <td class="post-body">
+          <h2>KAMAR EXECUTIVE</h2>
+          <br><br><br>
+          Ruangan ramping dengan sentuhan modern dan gaya. Kamar chic ini dengan banyak fasilitas menjanjikan tinggal tepat nyaman di jantung kota Yogyakarta. Pilihan sempurna apakah bepergian untuk bisnis atau untuk kesenangan.
+          <br><br><br>
+          <a href="kamarexecutive.html">LIHAT KAMAR</a>
+        </tr>
+      </table>
+      </div>
+-->
+
+
+<br>
+<div class="row">
+  <div class="column1"><br>
+  </div>
+  <div class="column2">
+    <h2>KAMAR DELUXE</h2>
+    <p align="justify">Ruangan ramping dengan sentuhan modern dan gaya. Kamar chic ini dengan banyak fasilitas menjanjikan tinggal tepat nyaman di jantung kota Yogyakarta. Pilihan sempurna apakah bepergian untuk bisnis atau untuk kesenangan.
+</p>
+            <div>
+              <ul class="row">
+                                
+                  <li>TV Layar datar</li>
+                                
+                  <li>Pengering rambut</li>
+                                
+                  <li>Bar mini</li>
+                                
+                  <li>Barang Toilet Gratis</li>
+                                
+                  <li>Handuk</li>
+              </ul>
+            </div>
+
+  <p align="center"><a href="kamardelux.html">View</a></p>
+  </div>
+
+ <div class="column2">
+    <h2>KAMAR FAMILY</h2>
+    <p align="justify">Bersantai dan merasa nyaman di kamar premium kami seluas 35 m2. Dilengkapi dengan balkon pribadi yang luas sendiri, kamar ramping ini dengan berbagai sarana dan fasilitas menjanjikan tinggal tepat nyaman di jantung kota Yogyakarta. Pilihan sempurna apakah bepergian untuk bisnis atau kesenangan.
+</p>
+            <div>
+              <ul class="row">
+                                
+                  <li>TV Layar datar</li>
+                                
+                  <li>Pengering rambut</li>
+                                
+                  <li>Barang Toilet Gratis</li>
+                                
+                  <li>Handuk</li>
+              </ul>
+            </div>
+
+  <p align="center"><a href="kamarfamily.html">View</a></p>
+  </div> 
+ <div class="row">
+ <div class="column3">
+ </div> 
+
+<div class="row">
+  <div class="column4">
+  </div>
+  <div class="column2">
+    <h2>KAMAR PREMIUM</h2>
+    <p align="justify">Kamar modern, kontemporer dan luas berukuran 46 m2. Kamar Premium memiliki desain yang cerdas dan bergaya di lingkungan yang nyaman. Bepergian untuk bisnis atau kesenangan, kamar ini menawarkan ruang yang sempurna untuk menikmati masa tinggal yang nyaman di Yogyakarta.
+</p>
+            <div>
+              <ul class="row">
+                                
+                  <li>TV Layar datar</li>
+                                
+                  <li>Pengering rambut</li>
+                                
+                  <li>Barang Toilet Gratis</li>
+                                
+                  <li>Handuk</li>
+              </ul>
+            </div>
+
+  <p align="center"><a href="kamarpremium.html">View</a></p>
+  </div>
+
+<div class="column2">
+    <h2>KAMAR STARLIGHT</h2>
+    <p align="justify">Kamar-kamar yang luas dan modern berukuran 48 m2. Kamar Starlight memiliki desain cerdas dan bergaya dalam lingkungan lapang. Bepergian untuk bisnis atau untuk kesenangan, kamar ini menawarkan ruang yang sempurna untuk memiliki tinggal yang nyaman di Yogyakarta.
+</p>
+            <div>
+              <ul class="row">
+                                
+                  <li>TV Layar datar</li>
+                                
+                  <li>Pengering rambut</li>
+                                
+                  <li>Barang Toilet Gratis</li>
+                                
+                  <li>Handuk</li>
+              </ul>
+            </div>
+
+  <p align="center"><a href="kamarstarlight.html">View</a></p>
+  </div>
+ <div class="row">
+ <div class="column5">
+ </div> 
+
+ <div class="row">
+  <div class="column6">
+  </div>
+  <div class="column2">
+    <h2>KAMAR EXECUTIVE</h2>
+    <p align="justify">Ruangan ramping dengan sentuhan modern dan gaya. Kamar chic ini dengan banyak fasilitas menjanjikan tinggal tepat nyaman di jantung kota Yogyakarta. Pilihan sempurna apakah bepergian untuk bisnis atau untuk kesenangan.
+</p>
+            <div>
+              <ul class="row">
+                                
+                  <li>TV Layar datar</li>
+                                
+                  <li>Pengering rambut</li>
+                                
+                  <li>Bar mini</li>
+                                
+                  <li>Barang Toilet Gratis</li>
+                                
+                  <li>Handuk</li>
+              </ul>
+            </div>
+
+  <p align="center"><a href="kamarexecutive.html">View</a></p>
+  </div>
+  </div></div></div></div></div></div>
+<br>
+<hr>
+<script>
+window.onscroll = function() {myFunction()};
+
+var atas = document.getElementById("atas");
+var sticky = atas.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    atas.classList.add("sticky")
+  } else {
+    atas.classList.remove("sticky");
+  }
+}
+</script>
+<br>
+
+<h2 align="center">FASILITAS LAIN</h2>
+<br><br>
+<div class="kotak1">
+  <div class="kotak">
+    <div class="card">
+      <img src="Slide/ballroom.jpg" alt="Jane" style="width:100%">
+      <div class="isi">
+        <h2>Grand Ballroom</h2>
+        <p class="title">Ballroom untuk pernikahan, wisuda, pesta dll</p>
+        <p>Kapasitas Maximum mencapai 1000 orang</p>
+        <p>Ruangan Full AC</p>
+        <p><a href="ballroom.html">View</a></p>
+      </div>
+    </div>
+  </div></div>
+<div class="kotak1">
+  <div class="kotak">
+    <div class="card">
+      <img src="Slide/resto.jpg" alt="Jane" style="width:100%">
+      <div class="isi">
+        <h2>Melia Restaurant</h2>
+       <p class="title">Terdapat masakan ala tradisional dan masakan mewah</p>
+        <p>Restoran Melia memiliki spot pemandangan gunung</p>
+        <p>Anda bisa memesan kursi untuk makan malam dll</p>
+        <p><a href="restaurant.html">View</a></p>
+      </div>
+    </div>
+  </div></div><div class="kotak1">
+  <div class="kotak">
+    <div class="card">
+      <img src="Slide/Meet.jpg" alt="Jane" style="width:100%">
+      <div class="isi">
+        <h2>Meeting room</h2>
+        <p class="title">Ruangan Full AC, Internet Kencang dan fasilitas lengkap</p>
+        <p>Untuk meeting, kapasitas maksimum mencapai 50 orang</p>
+        <p>Meeting room memiliki desain yang mewah</p>
+        <p><a href="meetroom.html">View</a></p>
+      </div>
+    </div>
+  </div></div>
+
+<div class="bawahb">
+  <br><br><br>
+  <ul>
+  <li style="float: left;">&copy;club residents</li>
+  <li><a href="admin/admin_login.php">Login</a></li>
+  </ul>
+</div>
+</body>
+</html>
